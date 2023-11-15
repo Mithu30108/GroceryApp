@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-13T10:10:13 IST" name="GroceryApp" finished-at="2023-11-13T10:11:16 IST" duration-ms="63552">
+    <groups>
+    </groups>
+    <test started-at="2023-11-13T10:10:13 IST" name="Chrome Test" finished-at="2023-11-13T10:11:00 IST" duration-ms="47440">
+      <class name="testCase.AdminUsersTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCase.AdminUsersTest@449a4f23]" started-at="2023-11-13T10:10:13 IST" name="beforeMethod" finished-at="2023-11-13T10:10:54 IST" duration-ms="40934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAdminUsers()[pri:0, instance:testCase.AdminUsersTest@449a4f23]" started-at="2023-11-13T10:10:54 IST" name="verifyAdminUsers" finished-at="2023-11-13T10:10:59 IST" duration-ms="5554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminUsers -->
+        <test-method is-config="true" signature="afterMethode(org.testng.ITestResult)[pri:0, instance:testCase.AdminUsersTest@449a4f23]" started-at="2023-11-13T10:10:59 IST" name="afterMethode" finished-at="2023-11-13T10:11:00 IST" duration-ms="861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminUsers status=SUCCESS method=AdminUsersTest.verifyAdminUsers()[pri:0, instance:testCase.AdminUsersTest@449a4f23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethode -->
+      </class> <!-- testCase.AdminUsersTest -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2023-11-13T10:11:00 IST" name="EdgeTest" finished-at="2023-11-13T10:11:16 IST" duration-ms="16051">
+      <class name="testCase.AdminUsersTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCase.AdminUsersTest@8462f31]" started-at="2023-11-13T10:11:00 IST" name="beforeMethod" finished-at="2023-11-13T10:11:09 IST" duration-ms="9009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAdminUsers()[pri:0, instance:testCase.AdminUsersTest@8462f31]" started-at="2023-11-13T10:11:09 IST" name="verifyAdminUsers" finished-at="2023-11-13T10:11:14 IST" duration-ms="4745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminUsers -->
+        <test-method is-config="true" signature="afterMethode(org.testng.ITestResult)[pri:0, instance:testCase.AdminUsersTest@8462f31]" started-at="2023-11-13T10:11:14 IST" name="afterMethode" finished-at="2023-11-13T10:11:16 IST" duration-ms="2291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminUsers status=SUCCESS method=AdminUsersTest.verifyAdminUsers()[pri:0, instance:testCase.AdminUsersTest@8462f31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethode -->
+      </class> <!-- testCase.AdminUsersTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- GroceryApp -->
+</testng-results>
